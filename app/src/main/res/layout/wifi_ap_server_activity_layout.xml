@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/set_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/set_password_hint"
+        android:inputType="textVisiblePassword" />
+
+    <Button
+        android:id="@+id/open_wifi_ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_password"
+        android:text="@string/open_wifi_ap" />
+
+    <Button
+        android:id="@+id/close_wifi_ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/open_wifi_ap"
+        android:layout_marginTop="20dp"
+        android:text="@string/close_wifi_ap" />
+
+    <ListView
+        android:id="@+id/client_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/close_wifi_ap"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

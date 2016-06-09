@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wifi_ap_Client</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="open_wifi">打开wifi</string>
+    <string name="send_http_request">发送http请求</string>
+    <string name="close_wifi">关闭wifi</string>
+
+    <string name="enter_password_dlg_title">请输入密码</string>
+
+</resources>
